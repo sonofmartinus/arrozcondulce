@@ -1,16 +1,16 @@
-name = "risotto"
+name = "Arroz con Dulce"
 license = "MIT"
 licenselink = "https://github.com/joeroe/risotto/blob/master/LICENSE"
 description = "A minimalist, responsive theme inspired by terminal ricing aesthetics."
 
-homepage = "https://github.com/joeroe/risotto"
-demosite = "https://risotto.joeroe.io"
+homepage = "https://github.com/sonofmartinus/arrozcondulce"
+demosite = "https://arrozcondulce.sonofmartinus.com"
 
 tags = ["responsive", "minimal", "dark mode"]
 features = []
 min_version = "0.41.0"
 
 [author]
-  name = "Joe Roe"
-  homepage = "https://joeroe.io"
+  name = "Richard Martinez"
+  homepage = "https://sonofmartinus.com"
 
