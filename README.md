@@ -1,27 +1,27 @@
-# risotto
+# Arroz con Dulce (Sweet Rice)
 
-risotto is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by terminal ricing aesthetics.
+'Arroz con Dulce' is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by terminal ricing aesthetics.
 
-[![Hugo Themes](https://img.shields.io/badge/Hugo_Themes-risotto-blue?logo=hugo)](https://themes.gohugo.io/themes/risotto/)
+[![Hugo Themes](https://img.shields.io/badge/Hugo_Themes-arrozcondulce-blue?logo=hugo)](https://themes.gohugo.io/themes/arrozcondulce/)
 [![Version](https://img.shields.io/badge/semver-v0.3.0-blue)](https://semver.org)
-![hugo build status](https://github.com/joeroe/risotto/actions/workflows/hugo-build-exampleSite.yml/badge.svg)
-![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Frisotto.joeroe.io)
-![Code size](https://img.shields.io/github/languages/code-size/joeroe/risotto)
+![hugo build status](https://github.com/sonofmartinus/arrozcondulce/actions/workflows/hugo-build-exampleSite.yml/badge.svg)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Farrozcondulce.sonofmartinus.io)
+![Code size](https://img.shields.io/github/languages/code-size/sonofmartinus/arrozcondulce)
 
-![Screenshot of the risotto theme](https://raw.githubusercontent.com/joeroe/risotto/master/images/screenshot.png)
+![Screenshot of the arrozcondulce theme](https://raw.githubusercontent.com/sonofmartinus/arrozcondulce/master/images/screenshot.png)
 
 ## Install
 
 The easiest way to install the theme is to clone this repository into your site's `themes` directory:
 
 ```shell
-git clone https://github.com/joeroe/risotto themes/risotto
+git clone https://github.com/sonofmartinus/arrozcondulce themes/arrozcondulce
 ```
 
 If your site is already a git repository, you can add the theme as a submodule instead:
 
 ```shell
-git submodule add https://github.com/joeroe/risotto.git themes/risotto
+git submodule add https://github.com/sonofmartinus/arrozcondulce.git themes/arrozcondulce
 ```
 
 ## Update
@@ -29,7 +29,7 @@ git submodule add https://github.com/joeroe/risotto.git themes/risotto
 If you installed the theme using `git clone`, pull the repository to get the latest version:
 
 ```shell
-cd themes/risotto
+cd themes/arrozcondulce
 git pull
 ```
 
@@ -41,13 +41,13 @@ git submodule update --remote
 
 ## Configure
 
-To use the theme, add `theme = 'risotto'` to your site's `config.toml`, or `theme: risotto` to your `config.yaml` respectively.
+To use the theme, add `theme = 'arrozcondulce'` to your site's `config.toml`, or `theme: arrozcondulce` to your `config.yaml` respectively.
 
 See `exampleSite/config.toml` for the theme-specific parameters you need to add to your site's `config.toml` or `config.yaml` to configure the theme.
 
 ### Colour palettes
 
-risotto uses the [base16 framework](https://github.com/chriskempson/base16) to define colour schemes that can be used with the `theme.palette` parameter.
+arrozcondulce uses the [base16 framework](https://github.com/chriskempson/base16) to define colour schemes that can be used with the `theme.palette` parameter.
 A selection of 16 palettes (10 dark, 6 light) are bundled with the theme: `apprentice`, `base16-dark`, `base16-light`, `dracula`, `gruvbox-dark`, `gruvbox-light`, `material`, `papercolor-dark`, `papercolor-light`, `solarized-dark`, `solarized-light`, `tender`, `tokyo-night-dark`, `tokyo-night-light`, `windows-95` and `windows-95-light`.
 The default is `base16-dark`.
 
@@ -81,7 +81,7 @@ Note that not all colours are currently used in the theme.
 
 ## Favicon
 
-risotto will automatically use favicons placed in the `static/` directory.
+arrozcondulce will automatically use favicons placed in the `static/` directory.
 The following files will be detected and included in your site's `<head>` section:
 
 * `favicon.ico`
@@ -91,7 +91,7 @@ The following files will be detected and included in your site's `<head>` sectio
 * `site.webmanifest`
 
 You can generate these from an image or emoji using [favicon.io](https://favicon.io/) or a similar service.
-They must be placed directly under your site's `static/` directory, i.e. not in in a subdirectory or `themes/risotto/static/`.
+They must be placed directly under your site's `static/` directory, i.e. not in in a subdirectory or `themes/arrozcondulce/static/`.
 
 ## Acknowledgements
 
