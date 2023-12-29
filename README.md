@@ -8,7 +8,7 @@
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Farrozcondulce.sonofmartinus.io)
 ![Code size](https://img.shields.io/github/languages/code-size/sonofmartinus/arrozcondulce)
 
-![Screenshot of the arrozcondulce theme](https://raw.githubusercontent.com/sonofmartinus/arrozcondulce/master/images/screenshot.png)
+![Screenshot of the arrozcondulce theme](https://raw.githubusercontent.com/sonofmartinus/arrozcondulce/master/images/arrozcondulcedemo.png)
 
 ## Install
 
