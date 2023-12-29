@@ -17,6 +17,12 @@ sectionPagesMenu = "main"
 [params]
 noindex = false
 
+[params.ad]
+framework = "Hugo"
+frameworklink= "https://gohugo.io/"
+gotheme = "Arroz con Dulce"
+themelink = "https://arrozcondulce.sonofmartinus.com"
+
 [params.theme]
 palette = "base16-dark"
 
