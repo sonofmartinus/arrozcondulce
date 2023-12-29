@@ -17,6 +17,7 @@ sectionPagesMenu = "main"
 [params]
 noindex = false
 
+# Parametize advertisement at page(s) footer.
 [params.ad]
 framework = "Hugo"
 frameworklink= "https://gohugo.io/"
