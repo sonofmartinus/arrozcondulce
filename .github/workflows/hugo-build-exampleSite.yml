@@ -30,7 +30,7 @@ jobs:
           # extended: true
 
       - name: Build
-        working-directory: ./arrozcondulce/exampleSite
+        working-directory: ./exampleSite
         run: |
          export HUGO_MODULE=github.com/sonofmartinus/arrozcondulce
          hugo --minify -t arrozcondulce
@@ -40,5 +40,5 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./arrozcondulce/exampleSite/public
+          publish_dir: ./exampleSite/public
           cname: arrozcondulce.sonofmartinus.com
