@@ -31,7 +31,7 @@ jobs:
 
       - name: Build
         working-directory: ./arrozcondulce/exampleSite
-        run: hugo --minify --themesDir="../.." -t arrozcondulce
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
