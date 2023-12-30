@@ -16,7 +16,7 @@ sectionPagesMenu = "main"
 #Modularize imports as recommended by Hugo documentation
 [module]
 [[module.imports]]
-    path = 'github.com/sonofmartinus/arrozcondulce'
+    path = "github.com/sonofmartinus/arrozcondulce"
 	disable=false
 	ignoreConfig = false
 
