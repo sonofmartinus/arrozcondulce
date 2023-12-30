@@ -31,9 +31,7 @@ jobs:
 
       - name: Build
         working-directory: ./exampleSite
-        run: |
-         export HUGO_MODULE=github.com/sonofmartinus/arrozcondulce
-         hugo --minify -t arrozcondulce
+        run: hugo --minify --themesDir="../.." -t arrozcondulce
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
