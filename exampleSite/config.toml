@@ -19,8 +19,8 @@ noindex = false
 
 # Parametize advertisement at page(s) footer.
 [params.ad]
-frameworklink= "<a href="https://gohugo.io/">Hugo</a>"
-themelink = "<a href="https://arrozcondulce.sonofmartinus.com">Arroz con Dulce</a>"
+framework = { link = "https://gohugo.io/", text = "Hugo" }
+theme = { link = "https://arrozcondulce.sonofmartinus.com", text = "Arroz con Dulce" }
 
 [params.theme]
 palette = "base16-dark"
