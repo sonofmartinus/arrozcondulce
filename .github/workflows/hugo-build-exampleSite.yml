@@ -30,7 +30,7 @@ jobs:
           # extended: true
 
       - name: Build
-        working-directory: ./exampleSite
+        working-directory: ./arrozcondulce/exampleSite
         run: hugo --minify --themesDir="../.." -t arrozcondulce
 
       - name: Deploy
@@ -38,5 +38,5 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./exampleSite/public
+          publish_dir: ./arrozcondulce/exampleSite/public
           cname: arrozcondulce.sonofmartinus.com
