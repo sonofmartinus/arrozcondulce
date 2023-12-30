@@ -23,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          path: ${{ github.workspace }}/arrozconleche
+          path: ${{ github.workspace }}/arrozcondulce
           submodules: recursive
 
       - name: Setup Hugo
