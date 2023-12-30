@@ -67,6 +67,6 @@ jobs:
         id: deployment
         if: >
           success()
-          && github.ref == 'refs/heads/master'
+          && github.ref == 'refs/heads/main'
           && github.repository == 'sonofmartinus/arrozcondulce'
         uses: actions/deploy-pages@v2
