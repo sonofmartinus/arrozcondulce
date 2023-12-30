@@ -69,4 +69,4 @@ jobs:
           success()
           && github.ref == 'refs/heads/main'
           && github.repository == 'sonofmartinus/arrozcondulce'
-        uses: actions/deploy-pages@v2
+        uses: peaceiris/actions-gh-pages@v3
