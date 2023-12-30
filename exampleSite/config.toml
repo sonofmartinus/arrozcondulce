@@ -1,6 +1,5 @@
 baseURL = "https://arrozcondulce.sonofmartinus.com"
 title = "Arroz con Dulce demo site"
-theme = "arrozcondulce"
 author = "Richard Martinez"
 copyright = "© [Richard Martinez](https://sonofmartinus.com) & [arrozcondulce contributors](https://github.com/sonofmartinus/arrozcondulce/graphs/contributors)."
 paginate = 3
@@ -13,6 +12,12 @@ ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
+
+[module]
+[[module.imports]]
+    path = 'github.com/sonofmartinus/arrozcondulce'
+	disable=false
+	ignoreConfig = false
 
 [params]
 noindex = false
