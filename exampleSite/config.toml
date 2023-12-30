@@ -13,9 +13,6 @@ ignoreErrors = ["error-remote-getjson"]
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
 
-[[module.imports]]
-      path = "github.com/sonofmartinus/arrozcondulce"
-
 [params]
 noindex = false
 
