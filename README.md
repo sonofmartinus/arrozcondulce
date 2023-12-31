@@ -5,7 +5,7 @@
 [![Hugo Themes](https://img.shields.io/badge/Hugo_Themes-arrozcondulce-blue?logo=hugo)](https://themes.gohugo.io/themes/arrozcondulce/)
 [![Version](https://img.shields.io/badge/semver-v0.3.0-blue)](https://semver.org)
 ![hugo build status](https://github.com/sonofmartinus/arrozcondulce/actions/workflows/hugo-build.yml/badge.svg)
-![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Farrozcondulce.sonofmartinus.io)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https://arrozcondulce.sonofmartinus.com)
 ![Code size](https://img.shields.io/github/languages/code-size/sonofmartinus/arrozcondulce)
 
 ![Screenshot of the arrozcondulce theme](https://raw.githubusercontent.com/sonofmartinus/arrozcondulce/master/images/arrozcondulcedemo.png)
