@@ -1,6 +1,8 @@
 [module]
   [[module.imports]]
     path = "github.com/sonofmartinus/arrozcondulce"
+    disable = false
+	ignoreConfig = false
 
   [module.hugoVersion]
     extended = true  # Or false, depending on your needs
