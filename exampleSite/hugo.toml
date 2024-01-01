@@ -15,7 +15,7 @@ sectionPagesMenu = "main"
 
 [module]
   [[module.imports]]
-    path = "github.com/sonofmartinus/arrozcondulce"
+    path = 'github.com/sonofmartinus/arrozcondulce'
     disable = false
 	ignoreConfig = false
 
