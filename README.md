@@ -12,7 +12,16 @@
 
 ## Install
 
-The easiest way to install the theme is to clone this repository into your site's `themes` directory:
+The easiest way to install the theme is to add this repository as a required module in your 'hugo.toml' site configuration.
+
+```shell
+hugo mod init yoursitename
+hugo mod get github.com/sonofmartinus/arrozcondulce
+```
+
+There are other ways to install the theme:
+
+Clone this repository into your site's `themes` directory:
 
 ```shell
 git clone https://github.com/sonofmartinus/arrozcondulce themes/arrozcondulce

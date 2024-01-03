@@ -37,7 +37,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./exampleSite/public
-          cname: arrozcondulce.sonofmartinus.com
+          cname: demo.arrozcondulce.sonofmartinus.com
 
       - name: Debug
         run: |
