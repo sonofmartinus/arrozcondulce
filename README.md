@@ -5,7 +5,7 @@
 [![Hugo Themes](https://img.shields.io/badge/Hugo_Themes-arrozcondulce-blue?logo=hugo)](https://themes.gohugo.io/themes/arrozcondulce/)
 [![Version](https://img.shields.io/badge/semver-v0.1.0-blue)](https://semver.org)
 ![hugo build status](https://github.com/sonofmartinus/arrozcondulce/actions/workflows/hugo-build.yml/badge.svg)
-![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https://arrozcondulce.sonofmartinus.com)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https://demo.arrozcondulce.sonofmartinus.com)
 ![Code size](https://img.shields.io/github/languages/code-size/sonofmartinus/arrozcondulce)
 
 ![Screenshot of the arrozcondulce theme](https://raw.githubusercontent.com/sonofmartinus/arrozcondulce/master/images/arrozcondulcedemo.png)
@@ -14,9 +14,20 @@
 
 The easiest way to install the theme is to add this repository as a required module in your 'hugo.toml' site configuration.
 
+First initialize your Hugo site in your development environment with the commands below.
+
 ```shell
 hugo mod init yoursitename
 hugo mod get github.com/sonofmartinus/arrozcondulce
+```
+Then add to your hugo configuration file:
+
+```hugo.toml
+[module]
+  [[module.imports]]
+    path = 'github.com/sonofmartinus/arrozcondulce'
+    disable = false
+	ignoreConfig = false
 ```
 
 There are other ways to install the theme:
