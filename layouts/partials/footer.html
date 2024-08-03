@@ -1,3 +1,9 @@
 {{- partial "lang.html" . -}}
+
+{{ if .Site.Copyright }}
 <p class="copyright">{{ .Site.Copyright | markdownify }}</p>
+{{ end }}
+
+{{ if .Site.Params.ad }}
 <p class="advertisement">Powered by <a href="{{ .Site.Params.ad.framework.link }}">{{ .Site.Params.ad.framework.text }}</a> and <a href="{{ .Site.Params.ad.theme.link }}">{{ .Site.Params.ad.theme.text }}</a>.</p>
+{{ end }}

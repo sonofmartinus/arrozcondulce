@@ -1,3 +1,4 @@
+#Make sure baseURL matches the cname in the build file if you are deploying to GitHub pages.
 baseURL = "https://demo.arrozcondulce.sonofmartinus.com"
 title = "Arroz con Dulce demo site"
 author = "Richard Martinez"
@@ -20,13 +21,21 @@ sectionPagesMenu = "main"
 	ignoreConfig = false
 
 [params]
+#Param to activate robots noindex
 noindex = false
+
+#Param to 'activate' social links and icons
+social = false
+
+#Param to activate iconpack(s) css in head.html
+iconpacks = false
 
 # Parametize advertisement at page(s) footer.
 [params.ad]
 framework = { link = "https://gohugo.io/", text = "Hugo" }
 theme = { link = "https://arrozcondulce.sonofmartinus.com", text = "Arroz con Dulce" }
 
+#select color palette based on base16
 [params.theme]
 palette = "base16-dark"
 
@@ -69,7 +78,7 @@ category = "categories"
 tag = "tags"
 series = "series"
 
-# For hugo >= 0.60.0, enable inline HTML
+# For hugo >= 0.60.0, enable inline HTML. This allows for markdown to accept raw HTML.
 [markup.goldmark.renderer]
 unsafe = true
 

@@ -1,29 +1,21 @@
-# risotto (development version)
+# arrozcondulce (development version)
 
-* Fix overflow of code blocks with line numbers (#41)
-* Add descriptions to sidebar of list pages, where defined in the frontmatter of `_index.md` (#55)
+* New parameters for Icon Packs included in header
+	* Make these optional by using parameters in hugo.toml
+	* Upgrade versions of icon packs in header
+* Migrate to Base24 'Tinted Theming'
+	* https://github.com/tinted-theming/base24
 
-# risotto 0.3.0
 
-* Added support for favicons (#57)
+# arrozcondulce 0.1.0
 
-# risotto 0.2.0
+First named release, forked from joeroe/rissotto
 
-* **Breaking change** – new framework for colour palettes:
-  * Palettes are defined using CSS variables following the [base16](https://github.com/chriskempson/base16) system
-  * Added 14 new palettes: `apprentice`, `base16-dark`, `base16-light`, `dracula`, `material`, `papercolor-dark`, `papercolor-light`, `solarized-dark`, `solarized-light`, `tender`, `tokyo-night-dark`, `tokyo-night-light`, `windows-95` and `windows-95-light`.
-  * The default palette is `base16-dark`
-  * The `mode` parameter is no longer needed
-  * If you were using one of the old named palettes (`gruvbox-dark` or `gruvbox-light`), the change will be seamless.
-  * If you were using a custom palette, you will need to redefine it using the new framework. See README for further details.
-* Added a table of contents (thanks @dashv, #47)
-* Added multilanguage support with a language switcher (thanks @bedefaced)
-* Made the site header and nav wrap more efficiently on narrow screens (thanks @m-dev672, #32)
-* Added a changelog
-
-# risotto 0.1.0
-
-First named release, including:
-
-* `gruvbox-dark` and `gruvbox-light` colour palettes
-* FontAwesome6 and Academicons icon sets
+* Multiple changes including:
+	* Modularize theme
+	* README changes
+	* Overall re-brand
+	* Add new hugo.toml parameters
+		* Parametize framework used and theme adverstisement at bottom of pages.
+	* exampleSite build file, exampleSite baseurl to use 'demo' subdomain.
+	* Rename config.toml(s) to hugo.toml as recommended by documentation.
