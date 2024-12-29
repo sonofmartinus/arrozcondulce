@@ -1,9 +1,9 @@
-+++
-author = "Richard Martinez"
-title  = "Arroz Con Dulce"
-date   = "12/29/2024"
-reference = "https://boricua.com/puerto-rican-arroz-con-dulce-a-sweet-taste-of-tradition/"
-+++
+---
+author: Richard Martinez
+title: Arroz Con Dulce
+date:
+reference: https://boricua.com/puerto-rican-arroz-con-dulce-a-sweet-taste-of-tradition/
+---
 Arroz Con Dulce
 Arroz con dulce, a beloved Puerto Rican dessert, is a creamy and comforting rice pudding. It's crafted with tender rice cooked in a fragrant blend of cinnamon, ginger, and other warm spices. Enriched with coconut milk, evaporated milk, and sugar, it boasts a rich and indulgent flavor. Raisins are often added for a touch of sweetness and texture. This versatile dessert can be enjoyed warm or at room temperature, and its thick, custardy consistency makes it a delightful treat to savor with a spoon or even with the hands.
 
