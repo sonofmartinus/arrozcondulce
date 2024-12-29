@@ -1,7 +1,6 @@
 ---
 author: Richard Martinez
 title: Arroz Con Dulce
-date:
 reference: "https://boricua.com/puerto-rican-arroz-con-dulce-a-sweet-taste-of-tradition/"
 ---
 Arroz Con Dulce
