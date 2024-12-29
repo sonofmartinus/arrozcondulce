@@ -1,4 +1,5 @@
 ---
+title: Lorem
 reference: Lorem-Ipsum
 ---
 
