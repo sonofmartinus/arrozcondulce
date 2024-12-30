@@ -5,22 +5,24 @@
     </header>
 
     {{ range .Pages }}
-    <article class="posts">
+    <article class="post">
         <header class="post__header">
             <h1><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
             <p class="post__meta">
-                {{ .Params.author }},
-                <span class="date">{{ .Date.Format "2 January 2006" }}</span>
+                {{ if .Params.author }}{{ .Params.author }},{{ end }}
+                <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
             </p>
         </header>
 
         <section class="post__summary">
-            {{ .Summary }}
+            {{ .Render "summary" }}
         </section>
     </article>
     {{ end }}
 {{ end }}
 
-{{define "aside" }}
-    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+{{ define "aside" }}
+    {{ if .Params.description }}
+        <p>{{ .Params.description | markdownify }}</p>
+    {{ end }}
 {{ end }}
