@@ -1,6 +1,7 @@
 {{ define "main" }}
     <header class="content__header">
         <h1>{{ .Title | markdownify }}</h1>
+		<p>Template applied: {{ .Template }}</p>
     </header>
     <div class="content__body">
         {{ .Content }}
