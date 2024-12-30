@@ -28,12 +28,6 @@ jobs:
       - name: Clear Hugo Module Cache
         run: hugo mod clean
 
-      - name: Install Hugo Modules
-        run: hugo mod get -u
-
-      - name: Debug Hugo Modules
-        run: hugo mod list
-
       - name: Build
         run: hugo --minify
         working-directory: ./exampleSite
