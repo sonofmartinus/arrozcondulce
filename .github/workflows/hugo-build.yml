@@ -32,8 +32,8 @@ jobs:
         run: hugo mod get -u
 
       - name: Build
-        run: hugo --config hugo.toml --minify
-        working-directory: ./exampleSite
+        run: hugo --config hugo.toml --minify --source ./exampleSite
+        working-directory: .
 
       - name: Debug Build Directory
         run: |
