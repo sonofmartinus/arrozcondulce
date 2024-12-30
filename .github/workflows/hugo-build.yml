@@ -32,7 +32,7 @@ jobs:
         run: hugo mod get -u
 
       - name: Build
-        run: hugo --themesdir ../..
+        run: hugo --themesDir ../..
         working-directory: exampleSite
 
       - name: Debug Build Directory
