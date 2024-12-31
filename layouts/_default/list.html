@@ -8,10 +8,9 @@
         {{ .Render "li" }}
     {{ end }}
     </ul>
-	<p>Template: {{ .Template }}</p>
 
 {{ end }}
 
 {{define "aside" }}
-    {{ if .Params.description }}<p>{{ .Params.description }} Template: {{ .Template }}</p>{{ end }}
+    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
 {{ end }}

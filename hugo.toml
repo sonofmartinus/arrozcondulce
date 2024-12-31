@@ -1,7 +1,11 @@
 # hugo.toml in the Hugo module repository
+baseURL = "http://localsite:1313"
+title = "Arroz con Dulce demo site"
+author = "Richard Martinez"
 [module]
-  path = "github.com/sonofmartinus/arrozcondulce" # Replace with your actual module path
-  version = "v0.1.0" # Optional: Specify a version or tag
+  [[module.imports]]
+    path = "github.com/sonofmartinus/arrozcondulce" # Replace with your actual module path
+    version = "v0.1.0" # Optional: Specify a version or tag
 
   [module.hugoVersion]
     extended = true  # Or false, depending on your needs
