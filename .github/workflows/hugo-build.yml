@@ -36,7 +36,7 @@ jobs:
 
       - name: Build
         run: hugo
-        working-directory: exampleSite
+        working-directory: ./exampleSite
 
       - name: Debug Build Directory
         run: |
