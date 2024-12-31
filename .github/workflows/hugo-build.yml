@@ -27,12 +27,15 @@ jobs:
 
       - name: Clear Hugo Module Cache
         run: hugo mod clean
+        working-directory: ./exampleSite
 
       - name: Mod Init
         run: hugo mod init exampleSite
+        working-directory: ./exampleSite
 
       - name: Install Hugo Mod
         run: hugo mod get -u
+        working-directory: ./exampleSite
 
       - name: Build
         run: hugo
