@@ -28,6 +28,9 @@ jobs:
       - name: Clear Hugo Module Cache
         run: hugo mod clean
 
+      - name: Mod Init
+        run: hugo mod init exampleSite
+
       - name: Install Hugo Mod
         run: hugo mod get -u
 
