@@ -39,12 +39,12 @@ jobs:
 
       - name: Build
         run: hugo
-        working-directory: ./exampleSite
+        working-directory: exampleSite
 
       - name: Debug Build Directory
         run: |
           pwd
-          ls -la ./exampleSite
+          ls -la ./exampleSite/public
         shell: bash
 
       - name: Deploy
