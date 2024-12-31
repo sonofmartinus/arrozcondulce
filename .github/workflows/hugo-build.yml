@@ -25,12 +25,12 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      #- name: Clear Hugo Module Cache
-      #  run: hugo mod clean
-      #  working-directory: ./exampleSite
-
       - name: Mod Init
         run: hugo mod init exampleSite
+        working-directory: ./exampleSite
+
+      - name: Clear Hugo Module Cache
+        run: hugo mod clean
         working-directory: ./exampleSite
 
       - name: Install Hugo Mod
