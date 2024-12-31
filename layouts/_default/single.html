@@ -10,7 +10,7 @@
 
 {{define "aside" }}
     {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
-	{{ if .Params.reference }}<p>{{ .Params.reference }}</p>{{ end }}
+	{{ if .Params.reference.link }}<p>{{ .Params.reference.link }}</p>{{ end }}
     {{ if or (.Params.author) (.Params.date) }}
         <p>
             {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
