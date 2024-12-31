@@ -1,7 +1,9 @@
 ---
 title: About Page
 description: Hugo, the world's fastest framework for building websites
-reference: coming soon
+params:
+  reference:
+    link: https://google.com
 aliases: ["about-us", "about-hugo", "contact"]
 author: Richard Martinez
 ---
