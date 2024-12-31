@@ -44,7 +44,7 @@ jobs:
       - name: Debug Build Directory
         run: |
           pwd
-          ls -la ./exampleSite/public
+          ls -la ./exampleSite
         shell: bash
 
       - name: Deploy
