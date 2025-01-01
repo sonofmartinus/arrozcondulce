@@ -38,7 +38,7 @@ jobs:
         working-directory: ./exampleSite
 
       - name: Build
-        run: hugo
+        run: hugo --minify
         working-directory: exampleSite
 
       - name: Debug Build Directory
