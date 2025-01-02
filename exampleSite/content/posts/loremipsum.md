@@ -1,6 +1,8 @@
 ---
 title: Lorem
-reference: Lorem-Ipsum
+params:
+  reference:
+    link: "https://amazon.com"
 ---
 
 Example Example
