@@ -10,12 +10,11 @@
 
 {{define "aside" }}
     {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
-	{{ if .Params.reference.link }}<p>{{ .Params.reference.link }}</p>{{ end }}
     {{ if or (.Params.author) (.Params.date) }}
         <p>
             {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
-            {{ if .Date }}{{ .Date | default now | dateFormat "2006-01-02" }}{{ end }} {{/* Keeping date in ISO 8601, added default now for posts without specified date meta */}}
-        </p>
+            {{ if .Date }}{{ .Date.dateFormat "2006-01-02" }}{{ end }}
+		</p>
     {{ end }}
 
     {{ if and (.Params.toc) (.TableOfContents) }}

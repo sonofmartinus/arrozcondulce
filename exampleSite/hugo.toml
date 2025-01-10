@@ -44,7 +44,7 @@ palette = "base16-dark"
 [params.about]
 title = "Arroz con Dulce"
 description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
-logo = "static/images/rice.svg"
+logo = "images/rice.svg"
 
 # Sidebar: social links
 # Available icon sets:

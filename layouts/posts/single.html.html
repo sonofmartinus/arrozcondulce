@@ -10,11 +10,11 @@
 
 {{define "aside" }}
     {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
-	{{ if .Params.reference.link }}<p><a href="{{ .Params.reference.link }}" rel="noreferrer">{{ .Params.reference.text | default .Params.reference.link }}</a></p>{{ end }}
+	{{ if .Params.reference.link }}<p><a href="{{ .Params.reference.link }}" rel="noreferrer" target="_blank" >{{ .Params.reference.text | default .Params.reference.link }}</a></p>{{ end }}
     {{ if or (.Params.author) (.Params.date) }}
         <p>
             {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
-            {{ if .Date }}{{ .Date | default now | dateFormat "2006-01-02" }}{{ end }} {{/* Keeping date in ISO 8601, added default now for posts without specified date meta */}}
+            {{ .Date | default now | dateFormat "2006-01-02" }}{{ end }} {{/* Keeping date in ISO 8601, added default now for posts without specified date meta */}}
         </p>
     {{ end }}
 
