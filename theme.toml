@@ -4,13 +4,12 @@ licenselink = "https://github.com/joeroe/risotto/blob/master/LICENSE"
 description = "A minimalist, responsive theme inspired by terminal ricing aesthetics."
 
 homepage = "https://github.com/sonofmartinus/arrozcondulce"
-demosite = "https://arrozcondulce.sonofmartinus.com"
+demosite = "https://demo.arrozcondulce.sonofmartinus.com"
 
 tags = ["responsive", "minimal", "dark mode"]
 features = []
-min_version = "0.41.0"
+min_version = "0.140.2"
 
 [author]
   name = "Richard Martinez"
   homepage = "https://sonofmartinus.com"
-
