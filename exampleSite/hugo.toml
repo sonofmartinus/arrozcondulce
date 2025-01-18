@@ -38,7 +38,7 @@ theme = { link = "https://arrozcondulce.sonofmartinus.com", text = "Arroz con Du
 
 #select color palette based on base16
 [params.theme]
-palette/base16 = "base16-dark"
+palette = "base16/base16-dark"
 
 # Sidebar: about/bio
 [params.about]
