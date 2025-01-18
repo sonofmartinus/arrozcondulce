@@ -3,7 +3,7 @@
 'Arroz con Dulce' is a minimalist, responsive [hugo](https://gohugo.io) theme inspired by terminal ricing aesthetics.
 
 [![Hugo Themes](https://img.shields.io/badge/Hugo_Themes-arrozcondulce-blue?logo=hugo)](https://themes.gohugo.io/themes/arrozcondulce/)
-[![Version](https://img.shields.io/badge/semver-v0.1.0-blue)](https://semver.org)
+[![Version](https://img.shields.io/badge/semver-v0.2.1-blue)](https://semver.org)
 ![hugo build status](https://github.com/sonofmartinus/arrozcondulce/actions/workflows/hugo-build.yml/badge.svg)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https://demo.arrozcondulce.sonofmartinus.com)
 ![Code size](https://img.shields.io/github/languages/code-size/sonofmartinus/arrozcondulce)
@@ -73,7 +73,7 @@ The default is `base16-dark`.
 
 <!-- TODO: add screenshots of default themes -->
 
-The easiest way to use other base16 styles is to place .css file from https://github.com/monicfenga/base16-styles/tree/master/css-variables and place it in your `static/css/palettes` directory.
+The easiest way to use other base16 styles is to place .css file from https://github.com/monicfenga/base16-styles/tree/master/css-variables and place it in your `static/css/palettes/base16` directory.
 
 Or to define a wholly custom theme, you will need to define the following CSS variables for the following base16 colours (see [base16-dark.css](blob/main/static/css/palettes/base16-dark.css) for an example):
 

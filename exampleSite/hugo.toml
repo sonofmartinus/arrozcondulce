@@ -3,7 +3,7 @@ baseURL = "https://demo.arrozcondulce.sonofmartinus.com"
 title = "Arroz con Dulce demo site"
 author = "Richard Martinez"
 copyright = "© [Richard Martinez](https://sonofmartinus.com) & [arrozcondulce contributors](https://github.com/sonofmartinus/arrozcondulce/graphs/contributors)."
-#languageCode = "en"
+languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
@@ -38,7 +38,7 @@ theme = { link = "https://arrozcondulce.sonofmartinus.com", text = "Arroz con Du
 
 #select color palette based on base16
 [params.theme]
-palette = "base16-dark"
+palette/base16 = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
