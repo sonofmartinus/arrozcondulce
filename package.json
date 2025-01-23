@@ -1,0 +1,25 @@
+{
+  "name": "arrozcondulce",
+  "version": "0.2.2",
+  "description": "Hugo Template",
+  "main": "release.config.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonofmartinus/arrozcondulce.git"
+  },
+  "keywords": [
+    "hugo",
+    "template",
+    "ricing",
+    "base16"
+  ],
+  "author": "Richard Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonofmartinus/arrozcondulce/issues"
+  },
+  "homepage": "https://github.com/sonofmartinus/arrozcondulce#readme"
+}
