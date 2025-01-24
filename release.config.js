@@ -1,19 +1,27 @@
 module.exports = {
 	branches: ["main"],
 	plugins: [
-	  "@semantic-release/commit-analyzer",
-	  "@semantic-release/release-notes-generator",
-	  "@semantic-release/changelog",
+	  "@semantic-release/commit-analyzer", // Determines the type of version bump (major, minor, patch)
+	  "@semantic-release/release-notes-generator", // Generates release notes
+	  "@semantic-release/changelog", // Updates the CHANGELOG.md
 	  [
 		"@semantic-release/npm",
 		{
-		  npmPublish: false,
+		  npmPublish: false, // Prevents publishing to npm, only updates package.json and package-lock.json
+		  tarballDir: false,  // Ensure no tarball is created
 		},
 	  ],
 	  [
 		"@semantic-release/github",
 		{
-		  assets: ["CHANGELOG.md"],
+		  assets: ["CHANGELOG.md"], // Upload changelog to GitHub release
+		},
+	  ],
+	  [
+		"@semantic-release/git",
+		{
+		  assets: ["package.json", "package-lock.json"], // Commit updated package.json and lockfile
+		  message: "chore(release): bump version to ${nextRelease.version} [skip ci]",
 		},
 	  ],
 	],

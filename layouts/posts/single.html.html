@@ -14,7 +14,7 @@
     {{ if or (.Params.author) (.Params.date) }}
         <p>
             {{ if .Params.author }}By {{ .Params.author }}{{ if .Date }}, {{ end }}{{ end }}
-            {{ .Date | default now | dateFormat "2006-01-02" }}{{ end }} {{/* Keeping date in ISO 8601, added default now for posts without specified date meta */}}
+            {{ .Date | default now | dateFormat "2006-01-02" }} {{/* Keeping date in ISO 8601, added default now for posts without specified date meta */}}
         </p>
     {{ end }}
 
