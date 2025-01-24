@@ -1,6 +1,6 @@
 {
   "name": "arrozcondulce",
-  "version": "0.2.2",
+  "version": "0.3.1",
   "description": "Hugo Template",
   "main": "release.config.js",
   "scripts": {
