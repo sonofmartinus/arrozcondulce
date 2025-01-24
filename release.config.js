@@ -8,7 +8,6 @@ module.exports = {
 		"@semantic-release/npm",
 		{
 		  npmPublish: false, // Prevents publishing to npm, only updates package.json and package-lock.json
-		  tarballDir: false,  // Ensure no tarball is created
 		},
 	  ],
 	  [
