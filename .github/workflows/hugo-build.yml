@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   release:
     types:
-      - published  # Trigger deployment when a new release is published
+      - released  # Trigger deployment when a new release is published
 
 
 jobs:
