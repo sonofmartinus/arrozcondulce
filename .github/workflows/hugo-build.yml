@@ -4,7 +4,7 @@ on:
   push:
     tags:
       - 'v*.*.*'  # Trigger deployment when a new release is published
-
+  workflow_dispatch:  # Enables manual triggers
 
 jobs:
   deploy:
