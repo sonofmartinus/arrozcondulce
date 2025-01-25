@@ -1,9 +1,9 @@
 name: GitHub Pages
 
 on:
-  release:
-    types:
-      - released  # Trigger deployment when a new release is published
+  push:
+    tags:
+      - 'v*.*.*'  # Trigger deployment when a new release is published
 
 
 jobs:
