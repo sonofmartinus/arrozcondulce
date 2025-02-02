@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Deploy Hugo demo site (ArrozConDulce)
 
 on:
   push:
@@ -39,7 +39,7 @@ jobs:
 
       - name: Build
         run: hugo --minify
-        working-directory: exampleSite
+        working-directory: ./exampleSite
 
       - name: Debug Build Directory
         run: |
