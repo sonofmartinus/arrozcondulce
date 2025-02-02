@@ -1,7 +1,7 @@
 {
   "name": "arrozcondulce",
-  "version": "0.3.4",
-  "description": "Hugo Template",
+  "version": "0.0.0",
+  "description": "Hugo Theme Modle",
   "main": "release.config.js",
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
@@ -12,9 +12,8 @@
   },
   "keywords": [
     "hugo",
-    "template",
-    "ricing",
-    "base16"
+    "theme",
+    "module"
   ],
   "author": "Richard Martinez",
   "license": "MIT",
@@ -24,9 +23,9 @@
   "homepage": "https://github.com/sonofmartinus/arrozcondulce#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/github": "^11.0.1",
-    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
     "semantic-release": "^24.2.1"
   }
 }
