@@ -1,4 +1,6 @@
+{{ if hugo.IsMultilingual }}
 {{- partial "lang.html" . -}}
+{{ end }}
 
 {{ if .Site.Copyright }}
 <p class="copyright">{{ .Site.Copyright | markdownify }}</p>
