@@ -1,9 +1,9 @@
 name: Deploy Hugo demo site (ArrozConDulce)
 
 on:
-  push:
-    tags:
-      - 'v*.*.*'  # Trigger deployment when a new release is published
+  release:
+    types:
+      - 'published'  # Trigger deployment when a new release is published
   workflow_dispatch:  # Enables manual triggers
 
 jobs:
