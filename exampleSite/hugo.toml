@@ -42,7 +42,7 @@ palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = "Arroz con Dulce"
+title = "ACD"
 description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
 logo = "images/rice.svg"
 
