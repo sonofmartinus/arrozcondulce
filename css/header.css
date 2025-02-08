@@ -17,7 +17,3 @@
 .main-nav li::marker {
     content: "./";
 }
-
-.nomarker li::marker {
-	content: ""
-}
