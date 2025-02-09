@@ -1,6 +1,6 @@
 #Make sure baseURL matches the cname in the build file if you are deploying to GitHub pages.
 baseURL = "https://demo.arrozcondulce.sonofmartinus.com"
-title = "Arroz con Dulce demo site"
+title = "ACD demo site"
 author = "Richard Martinez"
 copyright = "© [Richard Martinez](https://sonofmartinus.com) & [arrozcondulce contributors](https://github.com/sonofmartinus/arrozcondulce/graphs/contributors)."
 languageCode = "en"
@@ -12,6 +12,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
+
 [pagination]
 pagerSize = 3
 
@@ -42,7 +43,7 @@ palette = "base16-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = "ACD"
+title = "Arroz con Dulce"
 description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
 logo = "images/rice.svg"
 
